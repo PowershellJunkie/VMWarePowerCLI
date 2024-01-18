@@ -3,4 +3,4 @@
 Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -Scope AllUsers -Confirm:$false
 
 #---This command disables the CEIP (Customer Experience Improvement Program) in PowerCLI---
-Set-PowerCLIConfiguration -Scope AllUsers -ParticipateInCeip $false -Confirm:$false
+Set-PowerCLIConfiguration -ParticipateInCeip $false -Scope AllUsers -Confirm:$false
